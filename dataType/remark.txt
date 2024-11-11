@@ -1,0 +1,6 @@
+类型,定义,是否可变,是否有序,是否可重复,常见操作,备注
+str:字符串,str = 'hello world',不可变,有序,可重复,,
+list:列表,"list = [1, 'hello', 3.14, [3, 'world']]",可变,有序,可重复,,
+tuple:元祖,"tuple = (1, 3.14, 'hello world')",不可变,有序,可重复,,
+dict:字典,"dict = {'name': 'Ray', 'age': 32}",可变,无序,key不可重复，value可重复,,
+set:集合,"set = {'hello world', 99, 3.14, (1, 'python')}",可变,无序,不可重复,,仅支持不可变数据类型
